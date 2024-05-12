@@ -128,8 +128,7 @@
         FROM
           tblorderItem
         WHERE
-          fldProductId = <cfqueryparam value = "#arguments.productId#" cfsqltype="integer">
-          AND fldUserId = <cfqueryparam value = "#session.user.userId#" cfsqltype="integer">
+          fldUserId = <cfqueryparam value = "#session.user.userId#" cfsqltype="integer">
           AND fldActive = 1
       </cfquery>
       <cfif NOT local.getCartItem.recordCount>
