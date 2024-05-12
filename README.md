@@ -10,7 +10,7 @@ Follow these steps to set up the ECommerce website on your local system:
 
 2. **Set Up Local MySQL Database**
    - Install MySQL Server on your local system if you haven't already.
-   - Open the file located at `dbscripts/ecommerce.sql` in the cloned folder.
+   - Open the file located at `dbscript/ecommerce.sql` in the cloned folder.
    - Copy all the SQL commands from the file and execute them in your MySQL SQL editor to create the necessary tables and populate data.
 
 3. **Install ColdFusion 2018**

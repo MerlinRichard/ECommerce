@@ -36,7 +36,7 @@
     <cfargument name="exception" required="true">
     <cfargument name="event" type="string" required="true">
     <cfmail  from="error@eshopping.com"  subject="Error - eshopping"  to="error@eshopping.com" type="html">
-      <cfdump  var="#cfcatch#">
+      <cfdump  var="#arguments.exception#">
     </cfmail>
     <cfthrow object="#arguments.exception#" />
   </cffunction>

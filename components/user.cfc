@@ -18,7 +18,7 @@
           <cfset local.result = {error:true, message:"Email already exists! Please try again with another email."}>
         </cfif>
       </cfif>
-      <cfif NOT val(local.result.error)>
+      <cfif NOT local.result.error>
         <cfquery name="local.createUser" datasource="#application.datasource#" result="local.userResult">
           INSERT INTO tbluser (fldFirstName, fldLastName, fldEmail, fldPassword)
           VALUES
