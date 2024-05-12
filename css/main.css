@@ -1,0 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+.bgForm{
+  background-color: #7ebeda;
+  padding: 20px;
+}
+.error{
+  color: red;
+  font-weight: bold;
+  font-size: 12px;
+}

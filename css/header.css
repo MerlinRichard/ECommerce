@@ -1,0 +1,7 @@
+.headerContainer{
+  background-color: #0078ad;
+  color: #ffff;
+}
+.headerContainer .nav-link, .headerContainer .navbar-brand{
+  color: #ffff;
+}
